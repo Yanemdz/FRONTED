@@ -1,0 +1,29 @@
+# Ignorar dependencias
+node_modules/
+
+# Ignorar caché de Next.js
+.next/
+
+# Ignorar archivos de bloqueo específicos del administrador de paquetes
+package-lock.json
+yarn.lock
+
+# Ignorar configuraciones del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
+
+# Ignorar logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar archivos de salida de compilación estática
+out/
+
+# Ignorar configuraciones temporales
+*.tmp
+*.temp

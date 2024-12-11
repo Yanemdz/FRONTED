@@ -1,0 +1,104 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+}
+
+body {
+    background-color: #ffffff; /* Fondo blanco */
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2em;
+    color: #eba1ee; 
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.descripcion {
+    font-size: 1.1em;
+    color: #282828;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #6f6f6f;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+}
+
+.table .table-header {
+    background-color: #eba1ee; 
+    color: #ffffff; 
+    padding: 12px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.table .table-data {
+    padding: 12px;
+    border-bottom: 1px solid #ffffff;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.table-data:nth-child(even) {
+    background-color: #7a7a7a;
+}
+
+.table-data:nth-child(odd) {
+    background-color: #6f6f6f;
+}
+
+.table tr:last-child .table-data {
+    border-bottom: none;
+}
+
+.link {
+    color: #eba1ee;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #eba1ee; 
+    text-decoration: underline;
+}
+
+/* Botón personalizado */
+.btn-custom {
+    height: 60px;
+    background-color: #eba1ee;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #eba1ee;
+}
